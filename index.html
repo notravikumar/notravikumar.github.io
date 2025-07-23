@@ -1,73 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello there!</title>
-    <style>
-        html, body{
-           height: 100%;
-           width: 100%;
-           margin: 0;
-           padding: 0;
-        }
-        .tiles{
-            width: 100vw;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        @media (max-width:600px) {
-            .tiles {
-                flex-direction: column;
-            }
-        .tiles>div { 
-             display: flex; 
-             height: 200px; 
-             aspect-ratio: 2/3; 
-             overflow: hidden; 
-             border-radius: 10px; 
-             margin: 10px;  
-             background-size: cover; 
-         }
-        }
-        .tiles>div {
-            display: flex;
-            height: 70vh;
-            aspect-ratio: 2/3;
-            overflow: hidden;
-            border-radius: 10px;
-            margin: 10px; 
-            background-size: cover;
-        }
-        img {
-            transition-duration: 0.5s;
-            filter: grayscale();
-           
-        }
-        img:hover {
-            scale: 1.09;
-            filter: none;
-        }
-    </style>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('/w3images/forestbridge.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
 </head>
 <body>
-    <main>
-    
-    <div class="tiles">
-    <div>
 
-        <img src="https://images.unsplash.com/photo-1691860664006-b1ef531c8743?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt='Vintage Car' width='400px'>
-    </div>
-    <div>
-        <img src="https://images.unsplash.com/photo-1485550409059-9afb054cada4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1530&q=80" alt='Vintage Car' width='400px'>
-    </div>
-    <div>
-        <img src="https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80" alt='Vintage Car' width='400px'>
-    </div>
-    </div>
-    </main>
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+   RAVI
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+<!--     <p class="w3-large w3-center">35 days left</p> -->
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">&#10084</a>
+  </div>
+</div>
+
 </body>
 </html>
