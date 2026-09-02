@@ -70,7 +70,7 @@ export const site = {
     twitter: "",
     linkedin: "https://linkedin.com/in/notravikumar",
     email: "mailto:staravikr18@gmail.com",
-    resume: "",
+    resume: "/resume.pdf",
     discord: "https://discord.gg/",
     medium: "https://medium.com/@notravi",
   },
